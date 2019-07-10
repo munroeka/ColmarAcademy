@@ -1,0 +1,33 @@
+/*
+Header section
+*/
+
+.header-container{
+    display:flex;
+    height:64px;
+}
+
+.image-logo{
+    padding-left:24px;
+    height: 32;
+}
+
+.school-name span{
+    height:32px;
+}
+
+.navbar ul{
+    display:flex;
+}
+
+.navbar li{
+    padding-right:16px;
+}
+.navbar li:last-child{
+    padding-right:24px;
+}
+
+.navbar a{
+    flex-direction:row;
+    text-decoration: none;
+}
